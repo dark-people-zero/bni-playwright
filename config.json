@@ -1,0 +1,57 @@
+{
+    "dev": {
+      "env": "dev",
+      "dir_cookie": "cache/cookies",
+      "dir_captcha": "cache/images",
+      "dir_download": "cache/download",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+      "captcha_params": {
+        "noise": {
+          "path": "C:/scrapper/bsi-scrapper/tools/noiseremove.py",
+          "passfactor": 130
+        }
+      },
+      "server_params": {
+        "host": "0.0.0.0",
+        "port": 9009
+      },
+      "socket": "http://localhost:9991"
+    },
+    "live": {
+      "env": "live",
+      "dir_cookie": "cache/cookies",
+      "dir_captcha": "cache/images",
+      "dir_download": "cache/download",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+      "captcha_params": {
+        "noise": {
+          "path": "/path/to/scrapper/bsi-scrapper/tools/noiseremove.py",
+          "passfactor": 130
+        }
+      },
+      "server_params": {
+        "host": "0.0.0.0",
+        "port": 9009
+      },
+      "socket": "http://localhost:9991"
+    },
+    "prod": {
+      "env": "live",
+      "dir_cookie": "cache/cookies",
+      "dir_captcha": "cache/images",
+      "dir_download": "cache/download",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+      "captcha_params": {
+        "noise": {
+          "path": "/path/to/scrapper/bsi-scrapper/tools/noiseremove.py",
+          "passfactor": 130
+        }
+      },
+      "server_params": {
+        "host": "0.0.0.0",
+        "port": 9009
+      },
+      "socket": "http://localhost:9991"
+    }
+  }
+  
